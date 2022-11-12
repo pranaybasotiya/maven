@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RetestingSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Highprioritytest(failed)">
+    <classes>
+      <class name="TEST.logoutfunction">
+        <methods>
+          <include name="login1"/>
+          <include name="logout"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- TEST.logoutfunction -->
+      <class name="TEST.verifyloginfunctionality">
+        <methods>
+          <include name="login"/>
+          <include name="login1"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- TEST.verifyloginfunctionality -->
+    </classes>
+  </test> <!-- Highprioritytest(failed) -->
+</suite> <!-- Failed suite [RetestingSuite] -->

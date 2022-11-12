@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RetestingSuite">
+  <test parallel ="classes" thread-count="4" name="Highprioritytest">
+  
+    <classes>
+     
+      <class name="TEST.verifyloginfunctionality"/>
+      <class name="TEST.logoutfunction"/>
+  
+      
+      
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->
